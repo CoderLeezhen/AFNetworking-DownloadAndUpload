@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B772AB7A1C69908100DCC011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B772AB791C69908100DCC011 /* main.m */; };
+		B772AB7D1C69908100DCC011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B772AB7C1C69908100DCC011 /* AppDelegate.m */; };
+		B772AB801C69908100DCC011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B772AB7F1C69908100DCC011 /* ViewController.m */; };
+		B772AB831C69908100DCC011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B772AB811C69908100DCC011 /* Main.storyboard */; };
+		B772AB851C69908200DCC011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B772AB841C69908200DCC011 /* Assets.xcassets */; };
+		B772AB881C69908300DCC011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B772AB861C69908300DCC011 /* LaunchScreen.storyboard */; };
+		B772AB931C69908600DCC011 /* AFNetworking__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B772AB921C69908600DCC011 /* AFNetworking__________Tests.m */; };
+		B772AB9E1C69908A00DCC011 /* AFNetworking__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B772AB9D1C69908A00DCC011 /* AFNetworking__________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B772AB8F1C69908600DCC011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B772AB6D1C69907F00DCC011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B772AB741C69907F00DCC011;
+			remoteInfo = "AFNetworking网络封装之上传和下载";
+		};
+		B772AB9A1C69908900DCC011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B772AB6D1C69907F00DCC011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B772AB741C69907F00DCC011;
+			remoteInfo = "AFNetworking网络封装之上传和下载";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B772AB751C69908000DCC011 /* AFNetworking网络封装之上传和下载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking网络封装之上传和下载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772AB791C69908100DCC011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B772AB7B1C69908100DCC011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B772AB7C1C69908100DCC011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B772AB7E1C69908100DCC011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B772AB7F1C69908100DCC011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B772AB821C69908100DCC011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B772AB841C69908200DCC011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B772AB871C69908300DCC011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B772AB891C69908300DCC011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B772AB8E1C69908500DCC011 /* AFNetworking网络封装之上传和下载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking网络封装之上传和下载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772AB921C69908600DCC011 /* AFNetworking__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking__________Tests.m"; sourceTree = "<group>"; };
+		B772AB941C69908700DCC011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B772AB991C69908900DCC011 /* AFNetworking网络封装之上传和下载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking网络封装之上传和下载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772AB9D1C69908A00DCC011 /* AFNetworking__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking__________UITests.m"; sourceTree = "<group>"; };
+		B772AB9F1C69908A00DCC011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B772AB721C69907F00DCC011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772AB8B1C69908500DCC011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772AB961C69908700DCC011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B772AB6C1C69907F00DCC011 = {
+			isa = PBXGroup;
+			children = (
+				B772AB771C69908100DCC011 /* AFNetworking网络封装之上传和下载 */,
+				B772AB911C69908600DCC011 /* AFNetworking网络封装之上传和下载Tests */,
+				B772AB9C1C69908A00DCC011 /* AFNetworking网络封装之上传和下载UITests */,
+				B772AB761C69908000DCC011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B772AB761C69908000DCC011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B772AB751C69908000DCC011 /* AFNetworking网络封装之上传和下载.app */,
+				B772AB8E1C69908500DCC011 /* AFNetworking网络封装之上传和下载Tests.xctest */,
+				B772AB991C69908900DCC011 /* AFNetworking网络封装之上传和下载UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B772AB771C69908100DCC011 /* AFNetworking网络封装之上传和下载 */ = {
+			isa = PBXGroup;
+			children = (
+				B772AB7B1C69908100DCC011 /* AppDelegate.h */,
+				B772AB7C1C69908100DCC011 /* AppDelegate.m */,
+				B772AB7E1C69908100DCC011 /* ViewController.h */,
+				B772AB7F1C69908100DCC011 /* ViewController.m */,
+				B772AB811C69908100DCC011 /* Main.storyboard */,
+				B772AB841C69908200DCC011 /* Assets.xcassets */,
+				B772AB861C69908300DCC011 /* LaunchScreen.storyboard */,
+				B772AB891C69908300DCC011 /* Info.plist */,
+				B772AB781C69908100DCC011 /* Supporting Files */,
+			);
+			path = "AFNetworking网络封装之上传和下载";
+			sourceTree = "<group>";
+		};
+		B772AB781C69908100DCC011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B772AB791C69908100DCC011 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B772AB911C69908600DCC011 /* AFNetworking网络封装之上传和下载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B772AB921C69908600DCC011 /* AFNetworking__________Tests.m */,
+				B772AB941C69908700DCC011 /* Info.plist */,
+			);
+			path = "AFNetworking网络封装之上传和下载Tests";
+			sourceTree = "<group>";
+		};
+		B772AB9C1C69908A00DCC011 /* AFNetworking网络封装之上传和下载UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B772AB9D1C69908A00DCC011 /* AFNetworking__________UITests.m */,
+				B772AB9F1C69908A00DCC011 /* Info.plist */,
+			);
+			path = "AFNetworking网络封装之上传和下载UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B772AB741C69907F00DCC011 /* AFNetworking网络封装之上传和下载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772ABA21C69908A00DCC011 /* Build configuration list for PBXNativeTarget "AFNetworking网络封装之上传和下载" */;
+			buildPhases = (
+				B772AB711C69907F00DCC011 /* Sources */,
+				B772AB721C69907F00DCC011 /* Frameworks */,
+				B772AB731C69907F00DCC011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFNetworking网络封装之上传和下载";
+			productName = "AFNetworking网络封装之上传和下载";
+			productReference = B772AB751C69908000DCC011 /* AFNetworking网络封装之上传和下载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B772AB8D1C69908500DCC011 /* AFNetworking网络封装之上传和下载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772ABA51C69908A00DCC011 /* Build configuration list for PBXNativeTarget "AFNetworking网络封装之上传和下载Tests" */;
+			buildPhases = (
+				B772AB8A1C69908500DCC011 /* Sources */,
+				B772AB8B1C69908500DCC011 /* Frameworks */,
+				B772AB8C1C69908500DCC011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B772AB901C69908600DCC011 /* PBXTargetDependency */,
+			);
+			name = "AFNetworking网络封装之上传和下载Tests";
+			productName = "AFNetworking网络封装之上传和下载Tests";
+			productReference = B772AB8E1C69908500DCC011 /* AFNetworking网络封装之上传和下载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B772AB981C69908700DCC011 /* AFNetworking网络封装之上传和下载UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772ABA81C69908A00DCC011 /* Build configuration list for PBXNativeTarget "AFNetworking网络封装之上传和下载UITests" */;
+			buildPhases = (
+				B772AB951C69908700DCC011 /* Sources */,
+				B772AB961C69908700DCC011 /* Frameworks */,
+				B772AB971C69908700DCC011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B772AB9B1C69908900DCC011 /* PBXTargetDependency */,
+			);
+			name = "AFNetworking网络封装之上传和下载UITests";
+			productName = "AFNetworking网络封装之上传和下载UITests";
+			productReference = B772AB991C69908900DCC011 /* AFNetworking网络封装之上传和下载UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B772AB6D1C69907F00DCC011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mr.Lizhen;
+				TargetAttributes = {
+					B772AB741C69907F00DCC011 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4F7SDKG4K9;
+					};
+					B772AB8D1C69908500DCC011 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4F7SDKG4K9;
+						TestTargetID = B772AB741C69907F00DCC011;
+					};
+					B772AB981C69908700DCC011 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4F7SDKG4K9;
+						TestTargetID = B772AB741C69907F00DCC011;
+					};
+				};
+			};
+			buildConfigurationList = B772AB701C69907F00DCC011 /* Build configuration list for PBXProject "AFNetworking网络封装之上传和下载" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B772AB6C1C69907F00DCC011;
+			productRefGroup = B772AB761C69908000DCC011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B772AB741C69907F00DCC011 /* AFNetworking网络封装之上传和下载 */,
+				B772AB8D1C69908500DCC011 /* AFNetworking网络封装之上传和下载Tests */,
+				B772AB981C69908700DCC011 /* AFNetworking网络封装之上传和下载UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B772AB731C69907F00DCC011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772AB881C69908300DCC011 /* LaunchScreen.storyboard in Resources */,
+				B772AB851C69908200DCC011 /* Assets.xcassets in Resources */,
+				B772AB831C69908100DCC011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772AB8C1C69908500DCC011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772AB971C69908700DCC011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B772AB711C69907F00DCC011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772AB801C69908100DCC011 /* ViewController.m in Sources */,
+				B772AB7D1C69908100DCC011 /* AppDelegate.m in Sources */,
+				B772AB7A1C69908100DCC011 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772AB8A1C69908500DCC011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772AB931C69908600DCC011 /* AFNetworking__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772AB951C69908700DCC011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772AB9E1C69908A00DCC011 /* AFNetworking__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B772AB901C69908600DCC011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B772AB741C69907F00DCC011 /* AFNetworking网络封装之上传和下载 */;
+			targetProxy = B772AB8F1C69908600DCC011 /* PBXContainerItemProxy */;
+		};
+		B772AB9B1C69908900DCC011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B772AB741C69907F00DCC011 /* AFNetworking网络封装之上传和下载 */;
+			targetProxy = B772AB9A1C69908900DCC011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B772AB811C69908100DCC011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B772AB821C69908100DCC011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B772AB861C69908300DCC011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B772AB871C69908300DCC011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B772ABA01C69908A00DCC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B772ABA11C69908A00DCC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B772ABA31C69908A00DCC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B772ABA41C69908A00DCC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B772ABA61C69908A00DCC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworking网络封装之上传和下载.app/AFNetworking网络封装之上传和下载";
+			};
+			name = Debug;
+		};
+		B772ABA71C69908A00DCC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworking网络封装之上传和下载.app/AFNetworking网络封装之上传和下载";
+			};
+			name = Release;
+		};
+		B772ABA91C69908A00DCC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFNetworking网络封装之上传和下载";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B772ABAA1C69908A00DCC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFNetworking网络封装之上传和下载";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B772AB701C69907F00DCC011 /* Build configuration list for PBXProject "AFNetworking网络封装之上传和下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772ABA01C69908A00DCC011 /* Debug */,
+				B772ABA11C69908A00DCC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B772ABA21C69908A00DCC011 /* Build configuration list for PBXNativeTarget "AFNetworking网络封装之上传和下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772ABA31C69908A00DCC011 /* Debug */,
+				B772ABA41C69908A00DCC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B772ABA51C69908A00DCC011 /* Build configuration list for PBXNativeTarget "AFNetworking网络封装之上传和下载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772ABA61C69908A00DCC011 /* Debug */,
+				B772ABA71C69908A00DCC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B772ABA81C69908A00DCC011 /* Build configuration list for PBXNativeTarget "AFNetworking网络封装之上传和下载UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772ABA91C69908A00DCC011 /* Debug */,
+				B772ABAA1C69908A00DCC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B772AB6D1C69907F00DCC011 /* Project object */;
+}
