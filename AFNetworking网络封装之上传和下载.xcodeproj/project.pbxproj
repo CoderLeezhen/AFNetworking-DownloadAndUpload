@@ -207,7 +207,6 @@
 				TargetAttributes = {
 					B772AB741C69907F00DCC011 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 4F7SDKG4K9;
 					};
 					B772AB8D1C69908500DCC011 = {
 						CreatedOnToolsVersion = 7.2;
@@ -416,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------";
@@ -427,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "AFNetworking网络封装之上传和下载/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Lizhen.AFNetworking----------";
