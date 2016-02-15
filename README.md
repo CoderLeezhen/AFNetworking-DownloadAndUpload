@@ -1,2 +1,1 @@
-# AFNetworking-DownloadAndUpload
-AfNetworking Download Upload
+AfNetworking 上传和下载
